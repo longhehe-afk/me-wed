@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>thông tin</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.45); /* làm mờ nền để chữ dễ đọc */
+      z-index: -1;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      color: #FFD700;
+      text-align: center;
+      padding: 25px 0;
+      font-size: 28px;
+      letter-spacing: 1px;
+      font-weight: bold;
+      text-shadow: 1px 1px 3px black;
+    }
+    .container {
+      max-width: 950px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 15px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+    .social-card {
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      padding: 15px;
+      border-radius: 12px;
+      transition: 0.3s;
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .social-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    }
+    .social-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      margin-right: 20px;
+      object-fit: cover;
+    }
+    .social-info h2 {
+      margin: 0;
+      font-size: 22px;
+      color: #fff;
+    }
+    .social-info p {
+      margin: 5px 0;
+      color: #ddd;
+    }
+    .social-info a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 8px;
+      font-weight: 500;
+    }
+    .tiktok a { background: #000; }
+    .facebook a { background: #1877f2; }
+    .locket a { background: #ffce00; color: #111; }
+    .threads a { background: #000; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      font-weight: 500;
+      text-shadow: 1px 1px 2px black;
+    }
+  </style>
+</head>
+<body>
+
+  <header>thông tin hoàng long</header>
+
+  <div class="container">
+    <!-- TikTok -->
+    <div class="social-card tiktok">
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok Logo">
+      <div class="social-info">
+        <h2>TikTok</h2>
+        <p>xem phim hài và siêu xàm .</p>
+        <a href="https://www.tiktok.com/@hoang.long72" target="_blank">Xem TikTok</a>
+      </div>
+    </div>
+
+    <!-- Facebook -->
+    <div class="social-card facebook">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook Logo">
+      <div class="social-info">
+        <h2>Facebook</h2>
+        <p>nhắn tin thôi .</p>
+        <a href="https://www.facebook.com/long.hoang.461009" target="_blank">Xem Facebook</a>
+      </div>
+    </div>
+
+    <!-- Locket -->
+    <div class="social-card locket">
+      <img src="https://play-lh.googleusercontent.com/QCWW52P7TtAfgwv1RAg7oP2b3c8SPVKrWq8oA9nBf3A5prxwU7Z7QvMZTk7AKT7mM_Q=w240-h480-rw" alt="Locket Logo">
+      <div class="social-info">
+        <h2>Locket</h2>
+        <p>chụp hằng ngày để mn biết mik còn sống .</p>
+        <a href="https://locket.cam/hoanglong182012" target="_blank">Xem Locket</a>
+      </div>
+    </div>
+
+    <!-- Threads -->
+    <div class="social-card threads">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Threads_%28app%29_logo.svg" alt="Threads Logo">
+      <div class="social-info">
+        <h2>Threads</h2>
+        <p>nơi bốc phét phông bạc.</p>
+        <a href="https://www.threads.com/@longhoang4351" target="_blank"> Threads</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 - thông tin </footer>
+
+</body>
+</html>
